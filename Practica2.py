@@ -1,3 +1,4 @@
+import Metodos
 names = """ Agustin, Yanina, Andrés, Ariadna, Bautista, CAROLINA,
 CESAR, David, Diego, Dolores, DYLAN, ELIANA, Emanuel, Fabián, Noelia,
 Francsica', FEDERICO, Fernanda, GONZALO, Nancy """
@@ -18,15 +19,8 @@ for i in range(len(names)):  # creamos un diccionario con las estadisticas
         "goles_atajados": goals_avoided[i],
         "asistencias": assists[i]
     }
+Metodos.maximo(jugadorxs)
 
-max=-1
-for clave in jugadorxs.keys():
-   if(jugadorxs[clave]["goles"]>max):
-     max=jugadorxs[clave]["goles"]
-     nombre=clave
-print(max)
-print(nombre)
-    
 
 
 

@@ -19,7 +19,12 @@ for i in range(len(names)):  # creamos un diccionario con las estadisticas
         "goles_atajados": goals_avoided[i],
         "asistencias": assists[i]
     }
+
 Metodos.maximo(jugadorxs)
+Metodos.MasInfluyente(jugadorxs)
+Metodos.PromedioGoles(jugadorxs)
+Metodos.PromedioGolGoleadorxs(jugadorxs)
+
 
 
 

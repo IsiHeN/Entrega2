@@ -32,3 +32,4 @@ def PromedioGoles(jugadorx):
 
 def PromedioGolGoleadorxs(jugadorxs):
    print("Promedio de goles del goleadorx:",maximo(jugadorxs)/25) 
+   
